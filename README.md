@@ -1,4 +1,14 @@
 <!doctype html>
+[build]
+  publish = "."
+  command = ""
+
+# Optionnel: rediriger / vers index.html (utile si tu ajoutes des pages ensuite)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
